@@ -7,7 +7,6 @@ import instagram from '@/assets/instagram.svg'
 import facebook from '@/assets/facebook.svg'
 import Link from 'next/link'
 import ListMovie from './sections/ListMovie'
-import DefaultModal from './components/ModalSignin'
 import ImageSlider from './sections/ImageSlider'
 
 
@@ -39,6 +38,7 @@ export default function Home() {
       </div>
     </nav>  
   </header>
+
 
    {/* image slider */}
    <div>
