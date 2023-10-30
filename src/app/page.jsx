@@ -29,17 +29,16 @@ export default function Home() {
 
   return (
    <>
-<header className='py-2 px-5 shadow-md shadow-gray-600'>
-  <nav className='container mx-auto flex flex-col md:flex-row justify-between items-center'>
-    <div className='flex items-center'>
-      <Image src={logo} width="100" height='100' alt="Logo"></Image>
-      <div className='md:mx-10 ml-2'>
-        <input type="text" placeholder='Search Movie' />
+  <header className='py-2 px-5 shadow-md shadow-gray-600'>
+    <nav className='container mx-auto flex flex-col md:flex-row justify-between items-center'>
+      <div className='flex flex-col items-center md:flex-row md:items-center'>
+        <Image src={logo} width="100" height='100' alt="Logo"></Image>
+        <div className='md:mx-10 ml-2 mt-3 md:mt-0'>
+          <input type="text" placeholder='Search Movie' />
+        </div>
       </div>
-    </div>
-  </nav>  
-</header>
-
+    </nav>  
+  </header>
 
    {/* image slider */}
    <div>
@@ -72,7 +71,7 @@ export default function Home() {
           <Image src={logo} width="80" height='80'></Image>
           <p className='text-start mt-3'>Lorem ipsum, beatae fugiat nihil consequuntur itaque eaquore nam dolores ut eos esse dolor inventore expedita soluta nisi! Soluta vero totam ratione, aliquam debitis quaerat accusamus nulla a nostrum reprehenderit beatae.</p>
         </div>
-        <div className='w-full md:w-1/3 text-center md:ps-5'>
+        <div className='w-full md:w-1/3 text-center md:ps-5 mb-3'>
           <h2 className='font-semibold text-lg'>Tentang Kami</h2>
           <ul className='mt-3'>
             <li>Blog</li>
